@@ -23,3 +23,9 @@ reset: down up
 exec-ruby: up
 	echo "exec-ruby..."
 	docker-compose exec ruby bash
+
+# Service-Node Command
+exec-node: up
+	echo "exec-node..."
+	docker-compose exec node bash
+
