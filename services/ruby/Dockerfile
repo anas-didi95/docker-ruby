@@ -7,7 +7,7 @@ RUN echo "Install packages" \
     ## Update repos
     && apt update \
     ## Install packages
-    #&& apt install --no-recommends -y \
+    #&& apt install --no-install-recommends -y \
         #git \
     ## Cleanup
     && rm -rf /var/lib/apt/lists/*
