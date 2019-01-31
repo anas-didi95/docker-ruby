@@ -5,9 +5,9 @@ LABEL Anas Juwaidi <anas.didi95@gmail.com>
 # Install packages
 RUN echo "Install packages" \
     ## Update repos
-    && apt update \
+    && apt-get update \
     ## Install packages
-    #&& apt install --no-install-recommends -y \
+    #&& apt-get install --no-install-recommends -y \
         #git \
     ## Cleanup
     && rm -rf /var/lib/apt/lists/*
